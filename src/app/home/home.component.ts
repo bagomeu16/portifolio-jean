@@ -10,7 +10,5 @@ import { ProfileService } from '../services/profile.service';
 })
 export class HomeComponent {
 
-  constructor(private profileService: ProfileService) {
-    
-  }
+  constructor(private profileService: ProfileService) { }
 }

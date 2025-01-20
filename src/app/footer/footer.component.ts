@@ -10,7 +10,5 @@ import { ProfileService } from '../services/profile.service';
 })
 export class FooterComponent {
 
-  constructor(private profileService: ProfileService) {
-    
-  }
+  constructor(private profileService: ProfileService) { }
 }

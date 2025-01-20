@@ -33,6 +33,6 @@ export class MenuService {
       }
      ];
 
-    return menu;
+     return menu;
   }
 }
