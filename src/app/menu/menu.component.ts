@@ -16,10 +16,10 @@ export class MenuComponent {
 
   menuStatus: string = 'closed';
 
-  menuItems?: Array<Menu>
+  menuItems?: Array<Menu>;
 
   ngOnInit() {
-    const menu = this.menuService.getItens();
+    const menu = this.menuService.getItems();
 
     this.menuItems = menu;
   }

@@ -8,11 +8,11 @@ export class MenuService {
 
   constructor() { }
   
-  getItens(): Array<Menu> {
+  getItems(): Array<Menu> {
 
     const menu: Array<Menu> = [
       {
-        name: 'Inicio',
+        name: 'Início',
         url: '#banner'
       },
       {
